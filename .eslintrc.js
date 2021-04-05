@@ -5,8 +5,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb', 
-    'prettier',
-    'prettier/react'
+    'prettier'
   ],
   globals: {
     Atomics: 'readonly',
