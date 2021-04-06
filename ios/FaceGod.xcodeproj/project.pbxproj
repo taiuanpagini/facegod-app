@@ -7,26 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* FaceGodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FaceGodTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1B125E616919469C96530DD0 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F951AA3042434F7EBAEEB69E /* Montserrat-Black.otf */; };
+		4819EBFA8287446197B625A2 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51E3A8C3BC10463CABF66BA6 /* Montserrat-Light.otf */; };
 		676600A1EC24FFB01530B35D /* libPods-FaceGod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA93EFDB9923F360783A89DD /* libPods-FaceGod.a */; };
+		7ECFCEF90D914E7297148923 /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 94931B4D97AB454090AA68E6 /* Montserrat-ExtraLight.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8B1CB01723A14352B4B03456 /* Montserrat-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B5E96FA272A49EBB555E54A /* Montserrat-Italic.otf */; };
+		9646733EB246407C83B0C9DE /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A0E2427DA53F4F64BA949716 /* Montserrat-SemiBold.otf */; };
+		9AB40B4F43F34F49BDFAF190 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 34C9D2A254F0433FABF77C5D /* Montserrat-Medium.otf */; };
+		AE6DE6E4E72E4A818A8D881F /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 255B7032CB9A482A82971F9F /* Montserrat-Thin.otf */; };
+		D66E34DBC6B54784B5C6DF09 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7020DCFC64E24D54B98464DB /* Montserrat-Regular.otf */; };
+		D7F6AA08951740A591DC06FF /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EDD4BE05732F49CB8EE3E295 /* Montserrat-ExtraBold.otf */; };
+		E2801A0D87E24CB9A8803573 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 24C5CDB5ED9849F680963969 /* Montserrat-Bold.otf */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = FaceGod;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* FaceGodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceGodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FaceGodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceGodTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* FaceGod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceGod.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,21 +33,24 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FaceGod/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FaceGod/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FaceGod/main.m; sourceTree = "<group>"; };
+		24C5CDB5ED9849F680963969 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.otf"; path = "../src/assets/fonts/Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		255B7032CB9A482A82971F9F /* Montserrat-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.otf"; path = "../src/assets/fonts/Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		34C9D2A254F0433FABF77C5D /* Montserrat-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.otf"; path = "../src/assets/fonts/Montserrat-Medium.otf"; sourceTree = "<group>"; };
 		4C5D64FB0D9F5B628CB7E48B /* Pods-FaceGod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceGod.release.xcconfig"; path = "Target Support Files/Pods-FaceGod/Pods-FaceGod.release.xcconfig"; sourceTree = "<group>"; };
+		51E3A8C3BC10463CABF66BA6 /* Montserrat-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.otf"; path = "../src/assets/fonts/Montserrat-Light.otf"; sourceTree = "<group>"; };
+		7020DCFC64E24D54B98464DB /* Montserrat-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.otf"; path = "../src/assets/fonts/Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		7B5E96FA272A49EBB555E54A /* Montserrat-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.otf"; path = "../src/assets/fonts/Montserrat-Italic.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FaceGod/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94931B4D97AB454090AA68E6 /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.otf"; path = "../src/assets/fonts/Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		A0E2427DA53F4F64BA949716 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.otf"; path = "../src/assets/fonts/Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
 		A395A03A786D12B9554BDB59 /* Pods-FaceGod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceGod.debug.xcconfig"; path = "Target Support Files/Pods-FaceGod/Pods-FaceGod.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDD4BE05732F49CB8EE3E295 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.otf"; path = "../src/assets/fonts/Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		F951AA3042434F7EBAEEB69E /* Montserrat-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.otf"; path = "../src/assets/fonts/Montserrat-Black.otf"; sourceTree = "<group>"; };
 		FA93EFDB9923F360783A89DD /* libPods-FaceGod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FaceGod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00E356EB1AD99517003FC87E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -84,7 +85,6 @@
 				A395A03A786D12B9554BDB59 /* Pods-FaceGod.debug.xcconfig */,
 				4C5D64FB0D9F5B628CB7E48B /* Pods-FaceGod.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -110,6 +110,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7CDF65A8A2E345FCAE695CB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F951AA3042434F7EBAEEB69E /* Montserrat-Black.otf */,
+				24C5CDB5ED9849F680963969 /* Montserrat-Bold.otf */,
+				EDD4BE05732F49CB8EE3E295 /* Montserrat-ExtraBold.otf */,
+				94931B4D97AB454090AA68E6 /* Montserrat-ExtraLight.otf */,
+				7B5E96FA272A49EBB555E54A /* Montserrat-Italic.otf */,
+				51E3A8C3BC10463CABF66BA6 /* Montserrat-Light.otf */,
+				34C9D2A254F0433FABF77C5D /* Montserrat-Medium.otf */,
+				7020DCFC64E24D54B98464DB /* Montserrat-Regular.otf */,
+				A0E2427DA53F4F64BA949716 /* Montserrat-SemiBold.otf */,
+				255B7032CB9A482A82971F9F /* Montserrat-Thin.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +143,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				13AA01EF08781ED22F9F6AF1 /* Pods */,
+				7CDF65A8A2E345FCAE695CB9 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -136,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* FaceGod.app */,
-				00E356EE1AD99517003FC87E /* FaceGodTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,24 +161,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* FaceGodTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FaceGodTests" */;
-			buildPhases = (
-				00E356EA1AD99517003FC87E /* Sources */,
-				00E356EB1AD99517003FC87E /* Frameworks */,
-				00E356EC1AD99517003FC87E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				00E356F51AD99517003FC87E /* PBXTargetDependency */,
-			);
-			name = FaceGodTests;
-			productName = FaceGodTests;
-			productReference = 00E356EE1AD99517003FC87E /* FaceGodTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		13B07F861A680F5B00A75B9A /* FaceGod */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FaceGod" */;
@@ -192,10 +191,6 @@
 			attributes = {
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
-					00E356ED1AD99517003FC87E = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
 					};
@@ -215,25 +210,27 @@
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* FaceGod */,
-				00E356ED1AD99517003FC87E /* FaceGodTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				1B125E616919469C96530DD0 /* Montserrat-Black.otf in Resources */,
+				E2801A0D87E24CB9A8803573 /* Montserrat-Bold.otf in Resources */,
+				D7F6AA08951740A591DC06FF /* Montserrat-ExtraBold.otf in Resources */,
+				7ECFCEF90D914E7297148923 /* Montserrat-ExtraLight.otf in Resources */,
+				8B1CB01723A14352B4B03456 /* Montserrat-Italic.otf in Resources */,
+				4819EBFA8287446197B625A2 /* Montserrat-Light.otf in Resources */,
+				9AB40B4F43F34F49BDFAF190 /* Montserrat-Medium.otf in Resources */,
+				D66E34DBC6B54784B5C6DF09 /* Montserrat-Regular.otf in Resources */,
+				9646733EB246407C83B0C9DE /* Montserrat-SemiBold.otf in Resources */,
+				AE6DE6E4E72E4A818A8D881F /* Montserrat-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,14 +329,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00E356EA1AD99517003FC87E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00E356F31AD99517003FC87E /* FaceGodTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F871A680F5B00A75B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,64 +340,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* FaceGod */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		00E356F61AD99517003FC87E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FaceGodTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceGod.app/FaceGod";
-			};
-			name = Debug;
-		};
-		00E356F71AD99517003FC87E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = FaceGodTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-					"$(inherited)",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceGod.app/FaceGod";
-			};
-			name = Release;
-		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A395A03A786D12B9554BDB59 /* Pods-FaceGod.debug.xcconfig */;
@@ -585,15 +517,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FaceGodTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				00E356F61AD99517003FC87E /* Debug */,
-				00E356F71AD99517003FC87E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FaceGod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
