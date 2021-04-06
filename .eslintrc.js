@@ -18,7 +18,7 @@ module.exports = {
   },
   plugins: ['react', 'jsx-a11y', '@typescript-eslint', 'react-hooks', 'prettier'],
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': 'off',
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx', '.tsx'] }],
     'import/prefer-default-export': 'off',
     'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
