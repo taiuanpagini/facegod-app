@@ -1,0 +1,39 @@
+{
+  "stories": [
+    {
+      "id": 1,
+      "name": "Meu Story",
+      "cover": "https://api.adorable.io/avatars/50/my.png"
+    },
+    {
+      "id": 2,
+      "name": "vieira_alberto",
+      "cover": "https://api.adorable.io/avatars/50/vieira_alberto.png"
+    },
+    {
+      "id": 3,
+      "name": "serenaBeth",
+      "cover": "https://api.adorable.io/avatars/50/serenaBeth.png"
+    },
+    {
+      "id": 4,
+      "name": "JohnRoberto",
+      "cover": "https://api.adorable.io/avatars/50/JohnRoberto.png"
+    },
+    {
+      "id": 5,
+      "name": "Nivy_Buck",
+      "cover": "https://api.adorable.io/avatars/50/Nivy_Buck.png"
+    },
+    {
+      "id": 6,
+      "name": "JulioSilvio53",
+      "cover": "https://api.adorable.io/avatars/50/JulioSilvio53.png"
+    },
+    {
+      "id": 7,
+      "name": "__Silva87",
+      "cover": "https://api.adorable.io/avatars/50/__Silva87.png"
+    }
+  ]
+}

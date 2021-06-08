@@ -15,12 +15,13 @@
     "@react-navigation/bottom-tabs": "^5.11.9",
     "@react-navigation/native": "^5.9.4",
     "@react-navigation/stack": "^5.14.4",
+    "axios": "^0.21.1",
     "babel-plugin-inline-import": "^3.0.0",
     "babel-preset-react-app": "^10.0.0",
     "date-fns": "^2.19.0",
     "immer": "^9.0.1",
     "react": "17.0.1",
-    "react-native": "0.64.0",
+    "react-native": "^0.64.0-rc.4",
     "react-native-appearance": "^0.3.4",
     "react-native-config": "^1.4.2",
     "react-native-gesture-handler": "^1.10.3",
@@ -65,11 +66,6 @@
     "prettier": "^2.2.1",
     "react-test-renderer": "17.0.1",
     "reactotron-core-client": "^2.8.10"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint --fix --ext .tsx --max-warnings=0"
-    }
   },
   "jest": {
     "preset": "react-native"

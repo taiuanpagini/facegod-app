@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Background } from '~/styles/global';
 import { useColorScheme } from 'react-native-appearance';
 import CText from '~/components/Text';
 import Header from '~/components/Header';
+import api from '~/services/api';
+import Stories from '~/components/Stories';
+import stories from '~/db.json';
 
 // import { Container } from './styles';
 
@@ -12,7 +15,7 @@ const Home: React.FC = () => {
   return (
     <Background theme={colorScheme}>
       <Header />
-      <CText color={colorScheme === 'dark' ? '#FFF' : '#000'}>Home</CText>
+      <Stories stories={stories.stories} />
     </Background>
   );
 };
